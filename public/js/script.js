@@ -1,7 +1,7 @@
 // Iniciamos la AOS de animaciones
 AOS.init();
 
-// Scroll definido con Jquery 
+// Scroll definido con Jquery y activamos clase spy
 $(document).ready(function () {
   $("#menu").click(function () {
     $(this).toggleClass("fa-times");
@@ -18,7 +18,7 @@ $(document).ready(function () {
       document.querySelector("#scroll-top").classList.remove("active");
     }
 
-    // activo en navbar para que quede seleccionado
+    // scroll spy (para cada sección. Si se desplaza si hay más de una altura determinada)
     $("section").each(function () {
       let height = $(this).height();
       let offset = $(this).offset().top - 200;
@@ -48,23 +48,22 @@ $(document).ready(function () {
 //Realizamos un if por si el foco esta fuera de la ventana
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
-    document.title = "Activate en cualquier lugar | UNMdP";
-    $("#favicon").attr("href", "/images/unmdp/favicon.png");
+    document.title = "Portfolio | Federico Dorigatti";
+    $("#favicon").attr("href", "/images/favicon.png");
   } else {
-    document.title = "Activate ahora | UNMdP";
-    $("#favicon").attr("href", "/images/unmdp/favicon.png");
+    document.title = "Siga viendo el portafolio";
+    $("#favicon").attr("href", "/images/favhand.png");
   }
 });
 
 // Efectos del texto de inicio
 let typed = new Typed(".typing-text", {
   strings: [
-    "objetivos",
-    "metodología",
-    "planificacíon | tecnicas",
-    "Universidad Nacional",
-    "Mar del Plata",
-
+    "diseño web",
+    "desarrollo web",
+    "desarrollo backend",
+    "desarrollo fullstack",
+    "Servidor/Cliente",
   ],
   loop: true,
   typeSpeed: 50,
@@ -119,18 +118,18 @@ srtop.reveal(".about .content .box-container", { delay: 300 });
 srtop.reveal(".about .content .resumebtn", { delay: 300 });
 
 /* SCROLL HABILIDADES */
-srtop.reveal(".users .container", { interval: 200 });
-srtop.reveal(".users .container .bar", { delay: 400 });
+srtop.reveal(".skills .container", { interval: 200 });
+srtop.reveal(".skills .container .bar", { delay: 400 });
 
-/* SCROLL RECORRIDOS */
-srtop.reveal(".tours .box", { interval: 200 });
+/* SCROLL EDUCACION */
+srtop.reveal(".education .box", { interval: 200 });
 
-/* SCROLL GRAFICOS */
+/* SCROLL PROYECTOS */
 srtop.reveal(".work .box", { interval: 200 });
 
-/* SCROLL ESTACIONES */
-srtop.reveal(".seanson .timeline", { delay: 400 });
-srtop.reveal(".seanson .timeline .container", { interval: 400 });
+/* SCROLL EXPERIENCIA */
+srtop.reveal(".experience .timeline", { delay: 400 });
+srtop.reveal(".experience .timeline .container", { interval: 400 });
 
 /* SCROLL CONTACTO */
 srtop.reveal(".contact .container", { delay: 400 });

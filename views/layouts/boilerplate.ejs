@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Descripciones de portada -->
     <meta name="keywords"
-        content="Activate en cualquier lugar | Universidad Nacional de Mar del Plata" />
+        content="DoriAss Desing, portafolio, frontend, portafolio personal, diseño de portafolio, sitio web de portafolio, personal" />
     <meta name="description"
-        content="Bienvenidos a la aplicacion web del proyecto. Se trata de objetivos para emplear ejercicios laborales , realizado para Promocion de la Salud UNMdP Medicina" />
+        content="Bienvenidos al Portafolio de DoriAss. Un apasionado desarrollador web Full Stack. Un estudiante entusiasta que está intrigado por las cosas que lo rodean." />
     <!-- Estilos de pagina Stylesheet -->
     <link rel="stylesheet" href="/css/style.css">
-
-
+    <!-- StyleSheet de la seccion PROYECTOS-->
+    <link rel="stylesheet" href="/css/project.css">
+    <!-- Stylesheet de la seccion EXPERIENCIA-->
+    <link rel="stylesheet" href="/css/experience.css">
     <!-- Fuentes-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
@@ -21,14 +22,14 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Favicon -->
     <!--El estilo de pestaña puede variar dependiendo el foco(links.js)-->
-    <link id='favicon' rel="shortcut icon" href="/images/unmdp/favicon.png" type="image/x-png">
-    <title>Activate En Cualquier Lugar | UNMdP</title>
+    <link id='favicon' rel="shortcut icon" href="/images/favicon.png" type="image/x-png">
+    <title>Portfolio | Federico Dorigatti</title>
 </head>
 
 <body oncontextmenu="return false">
     <!-- Estilo del Cursor -->
     <div class="cursor"></div>
-    <!-- INCLUSIONES-->
+    <!-- Navbar -->
     <%-include('../partials/header.ejs')%>
     <%- body %>
     <%-include('../partials/footer.ejs')%>
@@ -44,6 +45,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- particle.js links -->
+    <script src="/js/particles.min.js"></script>
     <script src="/js/app.js"></script>
 
     <!-- Vanilla tilt.js -->
@@ -54,7 +56,7 @@
 
     <!-- Animaciones del ScrollReveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    
+
     <!-- ==== Fin del los CDN de todos los JAVASCRIPT ==== -->
     <!-- Desarrollo en javascrip para algunas funciones-->
     <script src="/js/script.js"></script>

@@ -5,6 +5,8 @@ const ejsMate = require("ejs-mate");
 const path = require("path");
 const methodOverride = require("method-override");
 
+//Modelo de datos
+const userProjects = require("./userData/projecthelper.js");
 
 //Configuro el motor  de vistas con su directorio
 app.engine("ejs", ejsMate);
@@ -20,12 +22,33 @@ app.use(express.static(path.join(__dirname, "public")));
 //No necesitamos agregar una barra invertida al representar las páginas de vista
 app.get("/", async (req, res) => {
   try {
-    res.render("homepage");
+    //Fetch the incoming JSON data
+    const data = await JSON.stringify(userProjects);
+    //Parse it into JavaScript Object
+    const projects = await JSON.parse(data);
+    res.render("homepage", { projects });
   } catch (e) {
     console.log(e);
   }
 });
 
+// Experience Ruta
+app.get("/experience", (req, res) => {
+  res.render("experience");
+});
+
+// project Ruta
+app.get("/project", async (req, res) => {
+  try {
+    //Fetch the incoming JSON data
+    const data = await JSON.stringify(userProjects);
+    //Parse delJavaScript Object
+    const projects = await JSON.parse(data);
+    res.render("project", { projects });
+  } catch (e) {
+    console.log(e);
+  }
+});
 
 //Start del servidor
 const port = process.env.PORT || 3000;
