@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background: #070707;
+  background: #010418;
   font-family: "Poppins", sans-serif;
   height: 100vh;
   /* We need to add auto to make this work it acts as a fallback if logo isn't there */
@@ -62,7 +62,7 @@ html::-webkit-scrollbar-thumb {
   top: 0;
   left: 0;
   z-index: 10000;
-  background: #202020;
+  background: #050018;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,7 +88,7 @@ header {
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #fff;
+  background-color: #00041dd3;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 
