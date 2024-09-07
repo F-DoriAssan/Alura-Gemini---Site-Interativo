@@ -795,12 +795,12 @@ header .navbar ul li a:hover {
 /* Fin de seccion de HABILIDADES */
 
 /* Inicio de seccion EDUCACION */
-.education {
+.sites {
   background: linear-gradient(184deg, #020117 20%, rgb(32, 1, 58) 50%, #0c0005 70%);
     min-height: 80vh;
 }
 
-.education .qoute {
+.sites .qoute {
   font-size: 1.5rem;
   text-align: center;
   font-family: "Nunito", sans-serif;
@@ -808,7 +808,7 @@ header .navbar ul li a:hover {
   margin-top: 0.5rem;
 }
 
-.education .box-container {
+.sites .box-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -816,7 +816,7 @@ header .navbar ul li a:hover {
   flex-direction: column;
 }
 
-.education .box-container .box {
+.sites .box-container .box {
   display: flex;
   flex-direction: row;
   width: 80%;
@@ -829,7 +829,7 @@ header .navbar ul li a:hover {
   background: rgb(252, 252, 252);
 }
 
-.education .box-container .box:hover {
+.sites .box-container .box:hover {
   transform: scale(1.03);
   box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
     inset -2px -2px 12px rgba(255, 255, 255, 0.5),
@@ -837,13 +837,13 @@ header .navbar ul li a:hover {
     inset 2px 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-.education .box-container .box .image {
+.sites .box-container .box .image {
   flex: 1 1 20rem;
   width: 100%;
   overflow: hidden;
 }
 
-.education .box-container .box img {
+.sites .box-container .box img {
   object-fit: cover;
   position: relative;
   width: 100%;
@@ -851,11 +851,11 @@ header .navbar ul li a:hover {
   transition: 1s;
 }
 
-.education .box-container .box img:hover {
+.sites .box-container .box img:hover {
   transform: scale(1.2);
 }
 
-.education .box-container .box .content {
+.sites .box-container .box .content {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -864,7 +864,7 @@ header .navbar ul li a:hover {
   flex: 1 1 40rem;
 }
 
-.education .box-container .box .content h3 {
+.sites .box-container .box .content h3 {
   font-size: 2.5rem;
   color: #012970;
   padding: 0.5rem 0;
@@ -873,13 +873,13 @@ header .navbar ul li a:hover {
   margin-left: 1rem;
 }
 
-.education .box-container .box .content p {
+.sites .box-container .box .content p {
   font-size: 1.5rem;
   margin-left: 1rem;
   text-align: left;
 }
 
-.education h4 {
+.sites h4 {
   font-size: 2rem;
   color: rgb(34, 109, 0);
   text-align: left;
@@ -890,21 +890,21 @@ header .navbar ul li a:hover {
 
 /* Inicio de medias queries EDUCACION*/
 @media screen and (max-width: 768px) {
-  .education .box-container .box {
+  .sites .box-container .box {
     flex-direction: column;
     width: 100%;
   }
 
-  .education .box-container .box .image {
+  .sites .box-container .box .image {
     width: 100%;
     height: 25rem;
   }
 
-  .education .box-container .box img {
+  .sites .box-container .box img {
     width: 100%;
   }
 
-  .education .box-container .box .content {
+  .sites .box-container .box .content {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -913,11 +913,11 @@ header .navbar ul li a:hover {
     flex: 0;
   }
 
-  .education .box-container .box .content h3 {
+  .sites .box-container .box .content h3 {
     font-size: 2rem;
   }
 
-  .education .btns {
+  .sites .btns {
     margin-top: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;

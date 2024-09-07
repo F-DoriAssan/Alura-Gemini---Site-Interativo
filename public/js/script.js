@@ -122,7 +122,7 @@ srtop.reveal(".skills .container", { interval: 200 });
 srtop.reveal(".skills .container .bar", { delay: 400 });
 
 /* SCROLL EDUCACION */
-srtop.reveal(".education .box", { interval: 200 });
+srtop.reveal(".sites .box", { interval: 200 });
 
 /* SCROLL PROYECTOS */
 srtop.reveal(".work .box", { interval: 200 });
