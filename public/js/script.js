@@ -125,7 +125,7 @@ srtop.reveal(".skills .container .bar", { delay: 400 });
 srtop.reveal(".sites .box", { interval: 200 });
 
 /* SCROLL PROYECTOS */
-srtop.reveal(".work .box", { interval: 200 });
+srtop.reveal(".aulas .box", { interval: 200 });
 
 /* SCROLL EXPERIENCIA */
 srtop.reveal(".experience .timeline", { delay: 400 });

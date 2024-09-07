@@ -12,7 +12,7 @@
 <p align="center"> A<strong>Developer web Full Stack</strong> passionate from web development, constantly learning new technologies led 
     me to be a fullstack developer.
     I have been exclusively dedicated to web programming for 2 years and I have 
-    been working in the IT sector for more than 7 years, for the advancement of 
+    been aulasing in the IT sector for more than 7 years, for the advancement of 
     technology, I bet on gain knowledge of structures Node.Js, 
     I stood out in the views thinking of a new model of web pages that are                           
     animated and intuitivefor the client<br />¡Check my resume 👇!</p>
@@ -26,7 +26,7 @@
     <div class="box-container">
         <div class="box">
             <h3>Briefcase DoriAss</h3>
-            <p> Thank you for visiting my personal portfolio website. Connect with me through social networks, send me a WhatsApp. <br /> <br /> Wait a moment, all major projects will be listed soon. Until
+            <p> Thank you for visiting my personal portfolio website. Connect with me through social netaulass, send me a WhatsApp. <br /> <br /> Wait a moment, all major projects will be listed soon. Until
             then keep visiting. <a href="https://api.whatsapp.com/send?phone=541141761096&text=More+information+about+%7C+M%C3%A1s+informacion+sobre%3A+">¡Connect with me through live chat! </a> 
             </p>
         </div>

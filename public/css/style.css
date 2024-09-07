@@ -23,7 +23,7 @@ body {
   background: #020117;
   font-family: "Poppins", sans-serif;
   height: 100vh;
-  /* We need to add auto to make this work it acts as a fallback if logo isn't there */
+  /* We need to add auto to make this aulas it acts as a fallback if logo isn't there */
   /* cursor: url("../images/assassins-creed.png"), auto; */
   /*cursor: none;*/
 }
@@ -806,6 +806,8 @@ header .navbar ul li a:hover {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: aqua;
 }
 
 .sites .box-container {
@@ -821,20 +823,22 @@ header .navbar ul li a:hover {
   flex-direction: row;
   width: 80%;
   border-radius: 0.5rem;
-  box-shadow: 9px -9px 18px #c9cacd, -9px 9px 18px #ffffff;
+  box-shadow: 9px -9px 18px #d400ff, -9px 9px 18px #e3b9ff;
   text-align: center;
   position: relative;
   margin-top: 2rem;
+  margin-bottom: 4rem;
   overflow: hidden;
-  background: rgb(252, 252, 252);
+  background: rgb(3, 0, 27);
+  height: 30rem;
 }
 
 .sites .box-container .box:hover {
   transform: scale(1.03);
-  box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
-    inset -2px -2px 12px rgba(255, 255, 255, 0.5),
-    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
-    inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 9px -9px 18px rgb(216, 94, 235),
+    inset 9px -9px 18px rgba(173, 7, 214, 0.918),
+    inset 9px -9px 18px rgba(234, 0, 255, 0.1),
+    inset 9px -9px 18px rgba(255, 0, 102, 0.15);
 }
 
 .sites .box-container .box .image {
@@ -866,7 +870,7 @@ header .navbar ul li a:hover {
 
 .sites .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: #012970;
+  color: #7858ee;
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
@@ -877,18 +881,19 @@ header .navbar ul li a:hover {
   font-size: 1.5rem;
   margin-left: 1rem;
   text-align: left;
+  color: rgb(255, 255, 255);
 }
 
-.sites h4 {
+.sites a {
   font-size: 2rem;
-  color: rgb(34, 109, 0);
+  color: rgb(9, 75, 255);
   text-align: left;
   margin: 1rem;
   font-family: "Nunito", sans-serif;
   font-weight: 700;
 }
 
-/* Inicio de medias queries EDUCACION*/
+/* Inicio de medias queries SITES*/
 @media screen and (max-width: 768px) {
   .sites .box-container .box {
     flex-direction: column;
@@ -925,31 +930,33 @@ header .navbar ul li a:hover {
   }
 }
 
-/* Fin de medias queries EDUCACION*/
-/* Fin de seccion EDUCACION */
+/* Fin de medias queries SITES*/
+/* Fin de seccion SITES */
 
 /* Inicio de seccion PROYECTOS */
-.work {
-  background: linear-gradient(184deg, #000000 34%, rgba(12,12,105,1) 65%, #003b2a 80%);
+.aulas {
+  background: #000000;
 }
 
-.work h2 {
+.aulas h2 {
   color: #fff;
   padding: 1rem;
 }
 
-.work .heading span {
+.aulas .heading span {
   color: rgb(255, 230, 0);
 }
 
-.work .box-container {
+.aulas .box-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   margin: 2rem;
+  background: #000000;
+  
 }
 
-.work .box-container .box {
+.aulas .box-container .box {
   flex: 1 1 30rem;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -958,13 +965,13 @@ header .navbar ul li a:hover {
   height: 30rem;
 }
 
-.work .box-container .box img {
+.aulas .box-container .box img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.work .box-container .box .content {
+.aulas .box-container .box .content {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -975,7 +982,7 @@ header .navbar ul li a:hover {
   flex-direction: column;
 }
 
-.work .box-container .box .content .tag {
+.aulas .box-container .box .content .tag {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -986,33 +993,33 @@ header .navbar ul li a:hover {
   background: #ffd900;
 }
 
-.work .box-container .box .content .tag h3 {
+.aulas .box-container .box .content .tag h3 {
   font-size: 2rem;
 }
 
-.work .box-container .box:hover .content {
+.aulas .box-container .box:hover .content {
   top: 25%;
 }
 
-.work .desc {
+.aulas .desc {
   margin: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.work .desc p {
+.aulas .desc p {
   font-size: 1.5rem;
 }
 
-.work .desc .btns {
+.aulas .desc .btns {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-top: 2rem;
 }
 
-.work .desc .btns .btn {
+.aulas .desc .btns .btn {
   line-height: 0;
   display: inline;
   padding: 1.5rem 2.5rem;
@@ -1023,16 +1030,16 @@ header .navbar ul li a:hover {
   margin-right: 2rem;
 }
 
-.work .desc .btns .btn:hover {
+.aulas .desc .btns .btn:hover {
   background: #310ae0f5;
 }
 
-.work .viewall {
+.aulas .viewall {
   display: flex;
   justify-content: center;
 }
 
-.work .viewall .btn {
+.aulas .viewall .btn {
   position: relative;
   line-height: 0;
   padding: 1.6rem 3rem;
@@ -1045,24 +1052,24 @@ header .navbar ul li a:hover {
   text-align: center;
 }
 
-.work .viewall .btn span {
+.aulas .viewall .btn span {
   font-weight: 600;
   font-size: 1.7rem;
   font-family: "Nunito", sans-serif;
 }
 
-.work .viewall .btn i {
+.aulas .viewall .btn i {
   margin-left: 0.3rem;
   font-size: 1.5rem;
   transition: 0.3s;
 }
 
-.work .viewall .btn:hover {
+.aulas .viewall .btn:hover {
   background: #fff;
   color: #000;
 }
 
-.work .viewall .btn:hover i {
+.aulas .viewall .btn:hover i {
   transform: translateX(5px);
 }
 
@@ -1090,7 +1097,7 @@ header .navbar ul li a:hover {
 .experience .container {
   padding: 10px 40px;
   position: relative;
-  background-color: inherit;
+  background-color: #050020;
   width: 50%;
 }
 

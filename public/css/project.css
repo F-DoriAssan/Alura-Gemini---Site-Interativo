@@ -1,23 +1,23 @@
 /* Inicio de seccion PROYECTOS */
-.work {
+.aulas {
   /* background: #010124; */
-  background: linear-gradient(to bottom, #010136, #00003a);
-  margin-top: 5rem;
+  background: linear-gradient(184deg, #0c0005 34%, rgb(0, 0, 37) 65%, #050020 80%);
+
 }
-.work h2 {
+.aulas h2 {
   color: #fff;
   padding: 1rem;
 }
-.work .heading span {
+.aulas .heading span {
   color: rgb(255, 230, 0);
 }
-.work .box-container {
+.aulas .box-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   margin: 2rem;
 }
-.work .box-container .box {
+.aulas .box-container .box {
   flex: 1 1 30rem;
   border-radius: 0.5rem;
   box-shadow: 0 0.7rem 1rem rgba(0, 0, 0, 0.3);
@@ -27,12 +27,12 @@
   background: #fff;
   border: none;
 }
-.work .box-container .box img {
+.aulas .box-container .box img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-.work .box-container .box .content {
+.aulas .box-container .box .content {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -42,7 +42,7 @@
   display: flex;
   flex-direction: column;
 }
-.work .box-container .box .content .tag {
+.aulas .box-container .box .content .tag {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -52,28 +52,28 @@
   padding-left: 1rem;
   background: #ffd900;
 }
-.work .box-container .box .content .tag h3 {
+.aulas .box-container .box .content .tag h3 {
   font-size: 2rem;
 }
-.work .box-container .box:hover .content {
+.aulas .box-container .box:hover .content {
   top: 25%;
 }
-.work .desc {
+.aulas .desc {
   margin: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.work .desc p {
+.aulas .desc p {
   font-size: 1.5rem;
 }
-.work .desc .btns {
+.aulas .desc .btns {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-top: 2rem;
 }
-.work .desc .btns .btn {
+.aulas .desc .btns .btn {
   line-height: 0;
   display: inline;
   padding: 1.5rem 2.5rem;
@@ -83,7 +83,7 @@
   background: rgb(12, 12, 12);
   margin-right: 2rem;
 }
-.work .desc .btns .btn:hover {
+.aulas .desc .btns .btn:hover {
   background: #310ae0f5;
 }
 
