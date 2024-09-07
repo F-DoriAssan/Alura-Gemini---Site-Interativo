@@ -471,7 +471,7 @@ header .navbar ul li a:hover {
 /* Inicio de seccion PERFIL */
 .about {
   color: #ffffff;
-  background: linear-gradient(184deg, rgba(2,1,23,1) 34%, rgba(12,12,105,1) 65%, #57059e 80%);
+  background: linear-gradient(184deg, rgba(2,1,23,1) 34%, rgba(12,12,105,1) 65%, #020117 80%);
 }
 
 .about .row {
@@ -605,193 +605,7 @@ header .navbar ul li a:hover {
 /* Fin de media queries PERFIL*/
 /* Fin de seccion PERFIL */
 
-/* Inicio de seccion HABILIDADES*/
-.skills {
-  background: linear-gradient(to bottom, #57059e, #020117);
-}
 
-.skills h2 {
-  color: #fff;
-}
-
-.skills .heading span {
-  color: rgb(255, 230, 0);
-}
-
-.skills .container {
-  background: rgba(0, 0, 22, 0.4);
-  border-radius: 1rem;
-  padding: 2rem;
-  margin: 1rem;
-}
-
-.skills .container .row {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  flex-wrap: wrap;
-  margin-left: 4%;
-  margin-top: 2%;
-}
-
-.skills .container .row .col {
-  display: grid;
-}
-
-.skills .container .col {
-  position: relative;
-  width: 90%;
-  color: #fff;
-  margin-top: 0.5rem;
-}
-
-.skills .container .col .bar {
-  margin-bottom: 15px;
-  padding: 10px;
-  border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  background: rgba(0, 0, 22, 0.9);
-  transition: 0.2s;
-}
-
-.skills .container .col .bar:hover {
-  transform: translateX(12px);
-  box-shadow: 0 5px 8px rgba(0, 2, 68, 0.4);
-}
-
-.skills .container .col .bar .info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 5px;
-}
-
-.skills .container .col .bar .info i {
-  font-size: 2rem;
-}
-
-.skills .container .col .bar .info span {
-  font-size: 1.8rem;
-  font-weight: 500;
-  font-family: "Poppins";
-  margin-left: 0.5rem;
-}
-
-.skills .container .col .bar .line {
-  position: relative;
-  width: 100%;
-  height: 10px;
-  background: rgb(212, 211, 211);
-  border-radius: 6px;
-}
-
-.skills .container .col .bar .line:before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  top: 0;
-  left: 0;
-  border-radius: 4px;
-}
-
-.skills .container .col .bar .html:before {
-  width: 98%;
-  background: #e03d0b;
-}
-
-.skills .container .col .bar .css:before {
-  width: 95%;
-  background: #2962ff;
-}
-
-.skills .container .col .bar .javascript:before {
-  width: 90%;
-  background: #ffd900;
-}
-
-.skills .container .col .bar .bootstrap:before {
-  width: 85%;
-  background: #3d10dd;
-}
-
-.skills .container .col .bar .php:before {
-  width: 80%;
-  background: #8054c7;
-}
-
-.skills .container .col .bar .mysqli:before {
-  width: 82%;
-  background: #f38b03;
-}
-
-.skills .container .col .bar .reactjs:before {
-  width: 60%;
-  background: #2962ff;
-}
-
-.skills .container .col .bar .mongo:before {
-  width: 90%;
-  background: #ce0505;
-}
-
-.skills .container .col .bar .express:before {
-  width: 90%;
-  background: #f7d203;
-}
-
-.skills .container .col .bar .mongoose:before {
-  width: 85%;
-  background: #2fdf7e;
-}
-
-.skills .container .col .bar .nodejs:before {
-  width: 82%;
-  background: #298521;
-}
-
-.skills .container .col .bar .vcs:before {
-  width: 88%;
-  background: #f14e32;
-}
-
-.skills .container .col .bar .sass:before {
-  width: 96%;
-  background: #1771e7;
-}
-
-.skills .container .col .bar .heroku:before {
-  width: 75%;
-  background: #ffae00;
-}
-
-/* Inicio de media queries de HABILIDADES*/
-@media screen and (max-width: 600px) {
-  .skills .container {
-    padding: 0;
-    margin: 0;
-  }
-
-  .skills .container .row {
-    grid-template-columns: repeat(1, 1fr);
-    margin: 1rem;
-    padding-top: 2rem;
-  }
-
-  .skills .container .col {
-    margin-top: 5px;
-    width: 100%;
-  }
-
-  .skills .container .col .bar {
-    margin-bottom: 10px;
-    padding: 10px;
-  }
-
-  .skills .container .col .bar .line {
-    height: 0.8rem;
-  }
-}
-
-/* Fin de media queries de HABILIDADES*/
 /* Fin de seccion de HABILIDADES */
 
 /* Inicio de seccion EDUCACION */
@@ -1277,7 +1091,7 @@ header .navbar ul li a:hover {
 
 /* Inicio de seccion de CONTACTOS*/
 .contact {
-  background: linear-gradient(184deg, #000116 34%, rgb(41, 0, 75) 65%, #00072c 80%);
+  background: linear-gradient(184deg, #050020 34%, rgb(41, 0, 75) 65%, #00072c 80%);
   min-height: 60vh;
 }
 
@@ -1461,6 +1275,18 @@ form .button-area {
 /* Fin de seccion CONTACTOS */
 
 /* Inicio de seccion FOOTER */
+
+.logo-footer {
+  font-size: 5.9rem;
+  font-weight: 900;
+  
+}
+
+.logo-footer i {
+  font-size: 3.2rem;
+}
+
+
 .footer {
   min-height: auto;
   padding-top: 0;
@@ -1494,7 +1320,7 @@ form .button-area {
 
 .footer .box-container .box p i {
   padding-right: 1rem;
-  color: #ffae00;
+  color: #00eeff;
 }
 
 .footer .box-container .box a {
@@ -1505,7 +1331,7 @@ form .button-area {
 }
 
 .footer .box-container .box a:hover {
-  color: #ffae00;
+  color: #00eeff;
 }
 
 .footer .box-container .box .share {
@@ -1532,7 +1358,7 @@ form .button-area {
   background: transparent;
   transform: scale(0.98);
   border: 0.1rem solid rgb(180, 178, 178);
-  color: #ffae00;
+  color: #00eeff;
 }
 
 .footer .credit {
@@ -1546,7 +1372,7 @@ form .button-area {
 }
 
 .footer .credit a {
-  color: #ffae00;
+  color: #00eeff;
 }
 
 .footer .fa {
