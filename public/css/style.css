@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background: #010418;
+  background: #020117;
   font-family: "Poppins", sans-serif;
   height: 100vh;
   /* We need to add auto to make this work it acts as a fallback if logo isn't there */
@@ -120,7 +120,7 @@ header .logo i {
 }
 
 header .logo:hover {
-  color: #fc8c05;
+  color: #05d7fc;
 }
 
 header .navbar ul {
@@ -136,7 +136,7 @@ header .navbar li {
 
 header .navbar ul li a {
   font-size: 1.57rem;
-  color: #0e2431;
+  color: #445b69;
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.04rem;
@@ -145,8 +145,8 @@ header .navbar ul li a {
 
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #230b92;
-  border-bottom: 0.2rem solid #230b92;
+  color: #507fff;
+  border-bottom: 0.2rem solid #4460ff;
   padding: 0.5rem 0;
 }
 
@@ -269,25 +269,25 @@ header .navbar ul li a:hover {
 .home .content h3 {
   font-size: 5rem;
   font-weight: 800;
-  color: #002057;
+  color: #8a42ff;
 }
 
 .home .content h3 span {
   font-size: 5rem;
   font-weight: 800;
-  color: #ff7b00;
+  color: #e065ff;
 }
 
 .home .content p {
   font-size: 2.5rem;
-  color: #000;
+  color: #cfcfffe5;
   font-weight: 600;
   padding: 1rem 0;
 }
 
 .home .content p span {
   font-size: 2.5rem;
-  color: rgb(148, 8, 8);
+  color: #05d7fc;
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -297,9 +297,9 @@ header .navbar ul li a:hover {
   padding: 1.6rem 3rem;
   border-radius: 4em;
   transition: 0.5s;
-  color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
+  color: #c5c1fd;
+  background: #3b3eff;
+  box-shadow: 0px 5px 18px rgba(60, 167, 255, 0.6);
   font-family: "Nunito", sans-serif;
 }
 
@@ -317,6 +317,7 @@ header .navbar ul li a:hover {
 
 .home .btn:hover {
   background: #1a047e;
+  color:#05d7fc;
 }
 
 .home .btn:hover i {
@@ -364,7 +365,7 @@ header .navbar ul li a:hover {
 }
 
 .social-icons a.github:hover {
-  background-color: #0e0e0e;
+  background-color: #ff0000;
 }
 
 .social-icons a.twitter:hover {
@@ -376,7 +377,7 @@ header .navbar ul li a:hover {
 }
 
 .social-icons a.dev:hover {
-  background-color: #070707;
+  background-color: #ff0000;
 }
 
 .social-icons a.instagram:hover {
@@ -423,7 +424,7 @@ header .navbar ul li a:hover {
 
 /* Inicio de seccion PERFIL */
 .about {
-  background: rgb(255, 255, 255);
+  background: linear-gradient(184deg, rgba(2,1,23,1) 34%, rgba(12,12,105,1) 75%, #57059e 90%);
 }
 
 .about .row {

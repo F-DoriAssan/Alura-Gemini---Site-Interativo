@@ -48,10 +48,10 @@ $(document).ready(function () {
 //Realizamos un if por si el foco esta fuera de la ventana
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
-    document.title = "Portfolio | Federico Dorigatti";
+    document.title = "Alura con Gemini | Dorigatti";
     $("#favicon").attr("href", "/images/favicon.png");
   } else {
-    document.title = "Siga viendo el portafolio";
+    document.title = "AI® | Alura & Gemini...";
     $("#favicon").attr("href", "/images/favhand.png");
   }
 });
@@ -59,11 +59,11 @@ document.addEventListener("visibilitychange", function () {
 // Efectos del texto de inicio
 let typed = new Typed(".typing-text", {
   strings: [
-    "diseño web",
-    "desarrollo web",
-    "desarrollo backend",
-    "desarrollo fullstack",
-    "Servidor/Cliente",
+    "arquitetura digital",
+    "criação de aplicativos",
+    "desenvolvimento web",
+    "inteligência artificial",
+    "processo contínuos",
   ],
   loop: true,
   typeSpeed: 50,
