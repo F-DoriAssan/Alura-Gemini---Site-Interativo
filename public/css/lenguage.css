@@ -1,19 +1,19 @@
 /* Diseño Experiencia */
-.experience {
+.lenguage {
   background: #050020;
 }
-.experience .quote {
+.lenguage .quote {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
 }
-.experience .timeline {
+.lenguage .timeline {
   position: relative;
   max-width: 1200px;
   margin: 2rem auto;
   background: #050020;
 }
-.experience .timeline::after {
+.lenguage .timeline::after {
   content: "";
   position: absolute;
   width: 6px;
@@ -24,14 +24,14 @@
   margin-left: -3px;
   z-index: -2;
 }
-.experience .container {
+.lenguage .container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
 /*Circulos en linea de tiempo*/
-.experience .container::after {
+.lenguage .container::after {
   content: "\f0b1";
   position: absolute;
   width: 25px;
@@ -48,14 +48,14 @@
   color: #02094b;
   font-family: "Font Awesome\ 5 Free";
 }
-.experience .left {
+.lenguage .left {
   left: 0;
 }
-.experience .right {
+.lenguage .right {
   left: 50%;
 }
 /* flechas apuntando a la derecha */
-.experience .left::before {
+.lenguage .left::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -68,7 +68,7 @@
   border-color: transparent transparent transparent #f68c09;
 }
 /* flechas apuntando a la izquierda  */
-.experience .right::before {
+.lenguage .right::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -80,28 +80,28 @@
   border-width: 10px 10px 10px 0;
   border-color: transparent #f68c09 transparent transparent;
 }
-.experience .right::after {
+.lenguage .right::after {
   left: -16px;
 }
-.experience .content {
+.lenguage .content {
   background-color: #f68c09;
   position: relative;
   border-radius: 6px;
 }
-.experience .content .tag {
+.lenguage .content .tag {
   font-size: 1.3rem;
   padding-top: 1.5rem;
   padding-left: 1.5rem;
 }
-.experience .content .desc {
+.lenguage .content .desc {
   margin-left: 1.5rem;
   padding-bottom: 1rem;
 }
-.experience .content .desc h3 {
+.lenguage .content .desc h3 {
   font-size: 1.5rem;
   font-weight: 600;
 }
-.experience .content .desc p {
+.lenguage .content .desc p {
   font-size: 1.2rem;
 }
 /* botón ver todo */
@@ -140,30 +140,30 @@
 
 /* Media queries -Línea receptiva en pantallas de menos de 600px */
 @media screen and (max-width: 600px) {
-  .experience .timeline::after {
+  .lenguage .timeline::after {
     left: 31px;
   }
-  .experience .container {
+  .lenguage .container {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
   }
-  .experience .container::before {
+  .lenguage .container::before {
     left: 60px;
     border: medium solid #f68c09;
     border-width: 10px 10px 10px 0;
     border-color: transparent #f68c09 transparent transparent;
   }
-  .experience .left::after {
+  .lenguage .left::after {
     left: 15px;
   }
-  .experience .right::after {
+  .lenguage .right::after {
     left: 15px;
   }
-  .experience .right {
+  .lenguage .right {
     left: 0%;
   }
-  .experience .container::after {
+  .lenguage .container::after {
     font-size: 2.2rem;
   }
 }

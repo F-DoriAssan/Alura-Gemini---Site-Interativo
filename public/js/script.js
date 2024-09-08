@@ -128,8 +128,8 @@ srtop.reveal(".sites .box", { interval: 200 });
 srtop.reveal(".aulas .box", { interval: 200 });
 
 /* SCROLL EXPERIENCIA */
-srtop.reveal(".experience .timeline", { delay: 400 });
-srtop.reveal(".experience .timeline .container", { interval: 400 });
+srtop.reveal(".lenguage .timeline", { delay: 400 });
+srtop.reveal(".lenguage .timeline .container", { interval: 400 });
 
 /* SCROLL CONTACTO */
 srtop.reveal(".contact .container", { delay: 400 });

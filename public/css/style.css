@@ -889,14 +889,14 @@ header .navbar ul li a:hover {
 
 /* Fin de seccion PROYECCTOS */
 
-/* Inicio de seccion EXPERIENCIAS */
-.experience .timeline {
+/* Inicio de seccion LENGUAJES */
+.lenguage .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.experience .timeline::after {
+.lenguage .timeline::after {
   content: "";
   position: absolute;
   width: 6px;
@@ -908,7 +908,7 @@ header .navbar ul li a:hover {
   z-index: -2;
 }
 
-.experience .container {
+.lenguage .container {
   padding: 10px 40px;
   position: relative;
   background-color: #050020;
@@ -916,7 +916,7 @@ header .navbar ul li a:hover {
 }
 
 /*círculos en la línea de tiempo*/
-.experience .container::after {
+.lenguage .container::after {
   content: "\f0b1";
   position: absolute;
   width: 25px;
@@ -934,16 +934,16 @@ header .navbar ul li a:hover {
   font-family: "Font Awesome\ 5 Free";
 }
 
-.experience .left {
+.lenguage .left {
   left: 0;
 }
 
-.experience .right {
+.lenguage .right {
   left: 50%;
 }
 
 /* flechas apuntando a la derecha*/
-.experience .left::before {
+.lenguage .left::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -957,7 +957,7 @@ header .navbar ul li a:hover {
 }
 
 /* flechas apuntando a la izquierda  */
-.experience .right::before {
+.lenguage .right::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -970,33 +970,33 @@ header .navbar ul li a:hover {
   border-color: transparent #f68c09 transparent transparent;
 }
 
-.experience .right::after {
+.lenguage .right::after {
   left: -16px;
 }
 
-.experience .content {
+.lenguage .content {
   background-color: #f68c09;
   position: relative;
   border-radius: 6px;
 }
 
-.experience .content .tag {
+.lenguage .content .tag {
   font-size: 1.3rem;
   padding-top: 1.5rem;
   padding-left: 1.5rem;
 }
 
-.experience .content .desc {
+.lenguage .content .desc {
   margin-left: 1.5rem;
   padding-bottom: 1rem;
 }
 
-.experience .content .desc h3 {
+.lenguage .content .desc h3 {
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-.experience .content .desc p {
+.lenguage .content .desc p {
   font-size: 1.2rem;
 }
 
@@ -1040,44 +1040,44 @@ header .navbar ul li a:hover {
 
 /* Media queries - EXPERIENCIAS 600px */
 @media screen and (max-width: 600px) {
-  .experience {
+  .lenguage {
     min-height: 80vh;
   }
 
-  .experience .timeline {
+  .lenguage .timeline {
     margin-top: 2rem;
   }
 
-  .experience .timeline::after {
+  .lenguage .timeline::after {
     left: 31px;
   }
 
-  .experience .container {
+  .lenguage .container {
     width: 100%;
     padding-left: 8rem;
     padding-right: 2rem;
   }
 
-  .experience .container::after {
+  .lenguage .container::after {
     font-size: 2.2rem;
   }
 
-  .experience .container::before {
+  .lenguage .container::before {
     left: 61px;
     border: medium solid #f68c09;
     border-width: 10px 10px 10px 0;
     border-color: transparent #f68c09 transparent transparent;
   }
 
-  .experience .left::after {
+  .lenguage .left::after {
     left: 15px;
   }
 
-  .experience .right::after {
+  .lenguage .right::after {
     left: 15px;
   }
 
-  .experience .right {
+  .lenguage .right {
     left: 0%;
   }
 

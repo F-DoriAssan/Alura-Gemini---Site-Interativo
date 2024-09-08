@@ -32,9 +32,9 @@ app.get("/", async (req, res) => {
   }
 });
 
-// Experience Ruta
-app.get("/experience", (req, res) => {
-  res.render("experience");
+// lenguage Ruta
+app.get("/lenguage", (req, res) => {
+  res.render("lenguage");
 });
 
 // project Ruta
